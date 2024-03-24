@@ -136,44 +136,6 @@ textarea {
 button {
     overflow: visible
 }
-/* whatsapp button fade up animation */
-@keyframes fade-up {
-    100% {
-        bottom: 20px;
-        opacity: 1;
-    }
-}
-
-/* whatsapp button style*/
-.whatsapp-container {
-    position: fixed;
-    right: 24px;
-    bottom: -50%;
-    opacity: 0;
-    padding: 20px;
-    z-index: 1;
-    animation: fade-up 1000ms forwards;
-}
-
-.whatsapp-container .whatsapp-btn {
-    font-size: 90px;
-    color: #25d366;
-    display: inline-block;
-    transition: all 400ms;
-}
-
-.whatsapp-container .whatsapp-btn:hover {
-    transform: scale(1.2);
-}
-
-@media (max-width: 375px) {
-    .whatsapp-container {
-        right: 5px;
-    }
-    
-    .whatsapp-container .whatsapp-btn {
-        font-size: 45px;
-    }
 button,
 select {
     text-transform: none
