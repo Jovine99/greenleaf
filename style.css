@@ -12,6 +12,7 @@ body {
         bottom: 20px; /* Adjust as needed */
         right: 20px; /* Adjust as needed */
         z-index: 9999;
+        margin-top: 2px;
     }
 
     .whatsapp-button a {
@@ -24,6 +25,13 @@ body {
         transition: all 0.3s ease;
         text-decoration:none
     }
+    .wa-text {
+        font-size: 14px;
+        color:#0f9c47;
+        margin-right: 10px;
+         /* Adjust as needed */
+    }
+    
 article,
 aside,
 details,
@@ -2437,11 +2445,11 @@ th {
    .hero-image-1 {
      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)),
       to(rgba(0, 0, 0, 0.5))), 
-      url("./images/gbg.jpg");
+      url("./images/clean.jpg");
      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
      url("./images/clean.jpg");
      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-     url("./images/items.jpg");
+     url("./images/clean.jpg");
      background-position: 0px 0px, 50% 0px;
      background-size: auto, cover;
      background-repeat: repeat, no-repeat;
@@ -2591,13 +2599,22 @@ th {
    .hero-image-2 {
      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)),
       to(rgba(0, 0, 0, 0.5))),
-       url("./images/slider1.jpg");
+       url("./images/items.jpg");
      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./images/slider1.jpg");
+      url("./images/items.jpg");
      background-position: 0px 0px, 50% 0px;
      background-size: auto, cover;
      background-repeat: repeat, no-repeat;
    }
+   .hero-image-3 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+                      url("./images/gbg.jpg");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/gbg.jpg");
+    background-position: 0px 0px, 50% 0px;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
    
    .leistungen {
      display: none;
@@ -2832,6 +2849,7 @@ th {
    }
    .wa-social-image{
     height: 50px;
+    width: 50px;
    }
    .back-to-top {
      padding: 6px;
