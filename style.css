@@ -13,6 +13,7 @@ body {
         right: 20px; /* Adjust as needed */
         z-index: 9999;
         margin-top: 2px;
+       
     }
 
     .whatsapp-button a {
@@ -23,7 +24,14 @@ body {
         border-radius: 50%;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease;
-        text-decoration:none
+        text-decoration:none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whatsapp-button a img{
+        
+        text-align: center;
     }
     .wa-text {
         font-size: 14px;
@@ -2152,7 +2160,7 @@ th {
      margin-top: 20px;
      margin-bottom: 10px;
      color: #383838;
-     font-size: 48px;
+     font-size: 40px;
      line-height: 54px;
      font-weight: 700;
      letter-spacing: 0.5px;
@@ -2433,7 +2441,7 @@ th {
    }
    
    .hero {
-     height: 96vh;
+     height: 90vh;
      padding-top: 70px;
    }
    
