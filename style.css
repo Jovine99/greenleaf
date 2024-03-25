@@ -2830,7 +2830,9 @@ th {
    .social-image {
      height: 30px;
    }
-   
+   .wa-social-image{
+    height: 50px;
+   }
    .back-to-top {
      padding: 6px;
      border: 2px none #0f9c47;
@@ -2865,6 +2867,7 @@ th {
      background-size: 1150px;
      background-repeat: repeat;
      background-attachment: fixed;
+     margin-top:40px
    }
    
    .testemonial-slider {
