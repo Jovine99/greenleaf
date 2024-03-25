@@ -3251,7 +3251,7 @@ th {
    @media (max-width: 479px) {
      h2 {
        max-width: 100%;
-       font-size: 38px;
+       font-size: 28px;
        line-height: 44px;
      }
      h3 {
